@@ -47,12 +47,14 @@ If none of the above options work for you, then reach out to us via email at [e-
 
 In addition to a Solace VMR, you will need to have the following software installed:
 
-* **SolAdmin** - Solace's GUI-based administration tool to manage a Solace VMR
-* **PuTTY / any SSH Tools** - for remote management of Solace VMR using command line
-* **Solace SDKPerf Tools** - pub/Sub test tool to send & receive messages
-* **Curl CLI Tool** - to send HTTP requests
+* **[SolAdmin](#SolAdmin)** - Solace's GUI-based administration tool to manage a Solace VMR
+* **[PuTTY / any SSH Tools](#putty)** - for remote management of Solace VMR using command line
+* **[Solace SDKPerf Tools](#sdkperf)** - pub/Sub test tool to send & receive messages
+* **[Curl CLI Tool](#Curl)** - to send HTTP requests
 
-### SolAdmin
+### <a name="SolAdmin"></a>SolAdmin
+
+![SolAdmin](images/soladmin.jpg)
 
 SolAdmin is a Java-based GUI tool for administering and managing a Solace VMR. You can download and install SolAdmin from here:
 
@@ -60,24 +62,27 @@ SolAdmin is a Java-based GUI tool for administering and managing a Solace VMR. Y
 
 We will cover usage of SolAdmin on Day 1 of the course, so you need to ensure it is downloaded, installed and runnable on your laptop.
 
-### Putty / an SSH Tools
+### <a name="putty"></a>PuTTY / an SSH Tools
+
+![Putty](images/putty.jpg)![SSH](images/ssh.jpg)
 
 If you use Mac/UNIX based OS then you will already have SSH install on your system. If you use a Windows based OS, then you can alternatively use PuTTY: [https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
-### Solace SDKPerf Tools
+### <a name="sdkperf"></a>Solace SDKPerf Tools
+
+![SDKPerf](images/sdkperf.jpg)
 
 SDKPerf is a pub/sub tool that you can use for testing, and sending & receiving of messages. We will use this throughout the course for most lab exercises. SDKPerf is available for different platforms and languages, but we suggest you download the Java version. **NOTE** *you will need Java JDK in order to run SDKPerf Java version.*
 
 * [http://dev.solace.com/downloads/#apis-protocols-tools](http://dev.solace.com/downloads/#apis-protocols-tools)
 
-### Curl CLI Tool
+### <a name="Curl"></a>Curl CLI Tool
+
+![Curl](images/curl.jpg)
 
 If you use Mac/UNIX based OS then you will already have Curl install on your system. 
 
 Check by running `curl --verion` on your Terminal window. 
 
 If you use a Windows based OS, then you can download Curl from here: (https://curl.haxx.se/dlwiz/)
-
-
-
 
