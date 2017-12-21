@@ -13,7 +13,7 @@ We suggest you download all the software ahead of the course.
 
 ## <a name="Solace-Virtual-Message-Router"></a>Solace Virtual Message Router (Solace VMR)
 
-You will need access to a Solace VMR to performs lab exercices for this course. You have several options:
+You will need access to a Solace VMR to perform lab exercices for this course. You have several options:
 
 1. [Solace VMR in the Cloud](#Solace-VMR-in-the-Cloud)
 2. [Solace VMR on your laptop](#Solace-VMR-on-your-laptop)
@@ -33,7 +33,7 @@ Alternatively, you can also find the complete setup instructions here:
 
 ### <a name="Solace-VMR-on-your-laptop"></a>Solace VMR on your laptop
 
-You will need a laptop with minimun 4 GiB of RAM, 2 CPUs, 8 GB disk space. If this is not an option for you, then see the next alternative option. If you have a good performant laptop then the easiest way is to download the Solace VMR Community Edition container and run it in Oracle VirtualBox. See the following Setup Guide for instructions:
+You will need a laptop with minimun 4 GiB of RAM, 2 CPUs, 8 GB disk space. If this is not an option for you, then see the next alternative option. If you have a laptop with good performance, than the easiest way is to download the Solace VMR Community Edition container and run it in Oracle VirtualBox. See the following Setup Guide for instructions:
 
 * [Setting Up VirtualBox VMR Machine Images](http://dev.solace.com/get-started/start-up-solace-messaging/)
 
@@ -45,10 +45,10 @@ If none of the above options work for you, then reach out to us via email at [e-
 
 ## <a name="Required-Software-Tools"></a>Required Software Tools
 
-In addition to a Solace VMR, you will need to the following software installed:
+In addition to a Solace VMR, you will need to have the following software installed:
 
 * **[SolAdmin](#SolAdmin)** - Solace's GUI-based administration tool to manage a Solace VMR
-* **[Putty / any SSH Tools](#putty)** - for remote management of Solace VMR using command line
+* **[PuTTY / any SSH Tools](#putty)** - for remote management of Solace VMR using command line
 * **[Solace SDKPerf Tools](#sdkperf)** - pub/Sub test tool to send & receive messages
 * **[Curl CLI Tool](#Curl)** - to send HTTP requests
 
@@ -56,23 +56,23 @@ In addition to a Solace VMR, you will need to the following software installed:
 
 ![SolAdmin](images/soladmin.jpg)
 
-SolAdmin is a Java-based GUI tool for administerig and managing a Solace VMR. You can download and install SolAdmin from here:
+SolAdmin is a Java-based GUI tool for administering and managing a Solace VMR. You can download and install SolAdmin from here:
 
 * [http://dev.solace.com/downloads/#apis-protocols-tools](http://dev.solace.com/downloads/#apis-protocols-tools)
 
-We will cover usage of SolAdmin on Day 1 of the course, so all you need to do is make sure it is downloaded and installed on your laptop.
+We will cover usage of SolAdmin on Day 1 of the course, so you need to ensure it is downloaded, installed and runnable on your laptop.
 
-### <a name="putty"></a>Putty / an SSH Tools
+### <a name="putty"></a>PuTTY / an SSH Tools
 
 ![Putty](images/putty.jpg)![SSH](images/ssh.jpg)
 
-If you use Mac/UNIX based OS then you will already have SSH install on your system. If you use a Windows based OS, then you can alternatively use Putty: [https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+If you use Mac/UNIX based OS then you will already have SSH install on your system. If you use a Windows based OS, then you can alternatively use PuTTY: [https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 ### <a name="sdkperf"></a>Solace SDKPerf Tools
 
 ![SDKPerf](images/sdkperf.jpg)
 
-SDKPerf is a pub/sub tool that you can use for testing, and sending & receiving messages. We will use this throughout the course for most lab exercies. SDKPerf is available for different platforms and languages, but we suggest you download the Java version. **NOTE** *you will need Java JDK in order to run SDKPerf Java version.*
+SDKPerf is a pub/sub tool that you can use for testing, and sending & receiving of messages. We will use this throughout the course for most lab exercises. SDKPerf is available for different platforms and languages, but we suggest you download the Java version. **NOTE** *you will need Java JDK in order to run SDKPerf Java version.*
 
 * [http://dev.solace.com/downloads/#apis-protocols-tools](http://dev.solace.com/downloads/#apis-protocols-tools)
 
