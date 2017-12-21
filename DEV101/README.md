@@ -44,11 +44,11 @@ Throughout the course you will be developing Java based applications & running t
 
 ![SolAdmin](images/soladmin.jpg)
 
-SolAdmin is a Java-based GUI tool for administerig and managing your Solace Cloud messaging-as-as-service. You can download and install SolAdmin from here:
+SolAdmin is a Java-based GUI tool for administering and managing a Solace VMR. You can download and install SolAdmin from here:
 
 * [http://dev.solace.com/downloads/#apis-protocols-tools](http://dev.solace.com/downloads/#apis-protocols-tools)
 
-We will cover usage of SolAdmin on Day 1 of the course, so all you need to do is make sure it is downloaded and installed on your laptop.
+We will cover usage of SolAdmin on Day 1 of the course, so you need to ensure it is downloaded, installed and runnable on your laptop.
 
 ### <a name="IDE"></a>IDE / Code Editor
 
@@ -63,7 +63,7 @@ You can use any of your favorite IDE or Java code editor. Some of the most popul
 
 If you use Mac/UNIX based OS then you will already have Curl install on your system. 
 
-Check by running `curl --verion` on your Terminal window. 
+Check by running `curl --version` on your Terminal window. 
 
 If you use a Windows based OS, then you can download Curl from here: (https://curl.haxx.se/dlwiz/)
 

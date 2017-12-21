@@ -82,7 +82,7 @@ SDKPerf is a pub/sub tool that you can use for testing, and sending & receiving 
 
 If you use Mac/UNIX based OS then you will already have Curl install on your system. 
 
-Check by running `curl --verion` on your Terminal window. 
+Check by running `curl --version` on your Terminal window. 
 
 If you use a Windows based OS, then you can download Curl from here: (https://curl.haxx.se/dlwiz/)
 
